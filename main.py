@@ -22,7 +22,7 @@ table = 'employee'
 
 
 @app.route("/", methods=['GET', 'POST'])
-def loadPage():
+def addEmp():
     return render_template('AddEmp.html', img_path="static/img/")
 
 @app.route("/addoutput", methods=['GET', 'POST'])
